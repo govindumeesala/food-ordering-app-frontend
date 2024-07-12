@@ -1,15 +1,24 @@
 import landingImg from "../assets/landing.png";
 import appDownload from "../assets/appDownload.png";
+import SearchBar, { SearchForm } from "@/components/SearchBar";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+  const navigate = useNavigate();
+  const handleSearchSubmit = (searchFromValues: SearchForm) => {
+    navigate({
+      pathname: `/search/${searchFromValues.searchQuery}`,
+    });
+  };
   return (
     <div className="flex flex-col gap-12">
       {/* card with search -mt-16 reason for overlapping with top element */}
-      <div className="bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
+      <div className="md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
         <h1 className="text-5xl font-bold tracking-tight text-orange-600">
           Tuck into a takeway today
         </h1>
         <span className="text-xl">Food is just a click away!</span>
+        <SearchBar placeHolder="Search by City" onSubmit={handleSearchSubmit} />
       </div>
 
       {/* get it on playstore section */}
