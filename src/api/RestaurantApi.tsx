@@ -42,7 +42,6 @@ export const useSearchRestaurants = (
     const response = await fetch(
       `${API_BASE_URL}/api/restaurant/search/${city}?${params.toString()}`
     );
-    console.log(response);
     if (!response.ok) {
       throw new Error("Failed to get Restaurant");
     }

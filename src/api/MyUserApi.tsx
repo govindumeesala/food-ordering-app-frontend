@@ -34,7 +34,6 @@ export const useGetMyUser = () => {
 
   if (error) {
     toast.error(error.toString());
-    console.log("login required");
   }
 
   return { currentUser, isLoading };
@@ -92,7 +91,6 @@ export const useUpdateMyUser = () => {
 
   const updateMyUserRequest = async (formData: UpdateMyUserRequest) => {
     const accessToken = await getAccessTokenSilently();
-    console.log(JSON.stringify(formData));
     const response = await fetch(`${API_BASE_URL}/api/my/user`, {
       method: "PUT",
       headers: {
