@@ -142,7 +142,7 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
         {isLoading ? (
           <LoadingButton />
         ) : (
-          <Button className="bg-orange-500 hover:bg-orange-700" type="submit">
+          <Button className="bg-green-500 hover:bg-green-700" type="submit">
             Submit
           </Button>
         )}

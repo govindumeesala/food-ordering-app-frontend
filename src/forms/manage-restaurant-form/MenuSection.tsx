@@ -14,7 +14,7 @@ const MenuSection = () => {
   return (
     <div className="space-y-2">
       <div>
-        <h2 className="text-2xl text-orange-500 font-bold">Menu</h2>
+        <h2 className="text-2xl text-green-500 font-bold">Menu</h2>
         <FormDescription>
           Create your menu and give each item a name and a price
         </FormDescription>
@@ -35,7 +35,7 @@ const MenuSection = () => {
       />
       <Button
         type="button"
-        className="bg-orange-500 hover:bg-orange-800"
+        className="bg-green-500 hover:bg-green-800"
         onClick={() => append({ name: "", price: "" })}
       >
         Add Menu Item

@@ -2,7 +2,7 @@ import appLogo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-orange-500 py-6 mb-4">
+    <div className="bg-green-500 py-6 mb-4">
       <div className="container mx-auto flex flex-col gap-4 md:flex-row justify-between items-center">
         <div className="flex items-center space-x-4">
           <img src={appLogo} style={{ height: "40px" }} />

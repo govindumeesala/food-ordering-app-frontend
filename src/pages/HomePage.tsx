@@ -1,4 +1,4 @@
-import landingImg from "../assets/landing.png";
+import landingImg from "../assets/AppDownloadcover.png";
 import appDownload from "../assets/appDownload.png";
 import SearchBar, { SearchForm } from "@/components/SearchBar";
 import { useNavigate } from "react-router-dom";
@@ -14,7 +14,7 @@ const HomePage = () => {
     <div className="flex flex-col gap-12">
       {/* card with search -mt-16 reason for overlapping with top element */}
       <div className="md:px-32 bg-white rounded-lg shadow-md py-8 flex flex-col gap-5 text-center -mt-16">
-        <h1 className="text-5xl font-bold tracking-tight text-orange-600">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-green-600">
           Tuck into a takeway today
         </h1>
         <span className="text-xl">Food is just a click away!</span>

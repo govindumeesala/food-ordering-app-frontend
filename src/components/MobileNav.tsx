@@ -25,12 +25,12 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Menu className="text-orange-500" /> {/* icon */}
+        <Menu className="text-green-500" /> {/* icon */}
       </SheetTrigger>
       <SheetContent className="space-y-3">
         <SheetTitle>
           {isAuthenticated ? (
-            <span className="flex items-center font-bold gap-3 hover:text-orange-500">
+            <span className="flex items-center font-bold gap-3 hover:text-green-500">
               <img
                 src={user?.picture}
                 alt={user?.name}
@@ -50,7 +50,7 @@ const MobileNav = () => {
           ) : (
             <Button
               onClick={async () => await loginWithRedirect()}
-              className="flex-1 font-bold bg-orange-500 hover:bg-orange-600"
+              className="flex-1 font-bold bg-green-500 hover:bg-green-600"
             >
               Log In
             </Button>
