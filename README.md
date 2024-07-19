@@ -41,11 +41,9 @@ Step-by-step instructions to set up the frontend project locally.
 ## Prerequisites
 - Node.js
   
-## Clone the Repository
+## Clone the Repository by running following commands
 - git clone [https://github.com/your-username/your-frontend-repo-name.git](https://github.com/govindumeesala/food-ordering-app-frontend.git)
-
-  
-cd food-ordering-app-frontend
+- cd food-ordering-app-frontend
 
 ## Install Dependencies
 
