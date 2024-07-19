@@ -9,8 +9,8 @@
 - [Scripts](#scripts)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
+- [Backend Repo](#Backend)
 
 ## Introduction
 
@@ -57,5 +57,37 @@ cd food-ordering-app-frontend
 
 - npm run dev
 
+## Configuration
 
+You can configure the frontend application by modifying the src/config folder.
+
+## Scripts
+
+- npm run dev: Start the client in development mode
+- npm run build: Build the client for production
+
+## Technologies Used
+- React
+- shadcn/ui
+- Tailwind css
+- Auth0
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+- Fork the repository.
+- Create a new branch: git checkout -b feature/your-feature-name.
+- Make your changes and commit them: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature/your-feature-name.
+- Submit a pull request.  
+
+## Contact
+
+- Created by [@govindumeesala] - feel free to contact me!
+
+
+## Backend
+
+[Link to Backend Repo]()
   
