@@ -12,9 +12,9 @@
 - [License](#license)
 - [Contact](#contact)
 
-  ## Introduction
+## Introduction
 
-  # Food Ordering Website
+# Food Ordering Website
 - This project is a food ordering web application consisting of two separate repositories: one for the frontend and one for the backend. The frontend, built using React, handles the user interface and interactions. The backend, powered by Node.js and Express.js, MongoDb manages data, user authentication, and API endpoints.
 - It allows users to browse through a variety of restaurants, view menus, add items to a cart, place orders, and track their order status.
 
