@@ -84,10 +84,10 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact
 
-- Created by [@govindumeesala] - feel free to contact me!
+- Created by [@govindumeesala](https://github.com/govindumeesala)  - feel free to contact me!
 
 
 ## Backend
 
-[Link to Backend Repo]()
+[Link to Backend Repo](https://github.com/govindumeesala/food-ordering-app-backend.git)
   
