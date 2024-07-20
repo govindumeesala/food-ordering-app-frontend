@@ -1,3 +1,5 @@
+# Frontend of MERN Stack Application : food ordering app
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -34,7 +36,7 @@
 
 - [Live link](https://food-ordering-app-frontend-ten.vercel.app)
 
-# Installation
+## Installation
 
 Step-by-step instructions to set up the frontend project locally.
 
@@ -69,6 +71,7 @@ You can configure the frontend application by modifying the src/config folder.
 - shadcn/ui
 - Tailwind css
 - Auth0
+- stripe
 
 ## Contributing
 
