@@ -35,6 +35,7 @@
 ## Demo
 
 - [Live link](https://food-ordering-app-frontend-ten.vercel.app)
+- [Demo](https://www.youtube.com/watch?v=Mugl6M8WkVI&feature=youtu.be)
 
 ## Installation
 
